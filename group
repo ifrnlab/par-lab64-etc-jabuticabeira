@@ -75,4 +75,5 @@ aluno:x:1001:
 rodrigo:x:1002:
 credsonisaac:x:1003:
 tadeu:x:1004:
-wireshark:x:134:
+wireshark:x:134:jurandy,aluno
+vboxusers:x:135:
