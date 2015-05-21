@@ -68,7 +68,7 @@ colord:x:128:
 lightdm:x:129:
 nopasswdlogin:x:130:aluno
 jurandy:x:1000:
-sambashare:x:131:jurandy,rodrigo,credsonisaac
+sambashare:x:131:jurandy,rodrigo,credsonisaac,tadeu
 dhcpd:x:132:
 lxc-dnsmasq:x:133:
 aluno:x:1001:
