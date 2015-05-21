@@ -78,3 +78,4 @@ tadeu:x:1004:
 wireshark:x:134:jurandy,aluno
 vboxusers:x:135:
 hg:x:136:
+gdm:x:137:

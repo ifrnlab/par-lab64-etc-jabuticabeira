@@ -79,3 +79,4 @@ wireshark:x:134:jurandy,aluno
 vboxusers:x:135:
 hg:x:136:
 gdm:x:137:
+docker:x:138:
