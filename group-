@@ -2,7 +2,7 @@ root:x:0:
 daemon:x:1:
 bin:x:2:
 sys:x:3:
-adm:x:4:syslog,jurandy
+adm:x:4:syslog,jurandy,rodrigo,credsonisaac
 tty:x:5:
 disk:x:6:
 lp:x:7:
@@ -18,7 +18,7 @@ voice:x:22:
 cdrom:x:24:jurandy
 floppy:x:25:
 tape:x:26:
-sudo:x:27:jurandy
+sudo:x:27:jurandy,rodrigo,credsonisaac
 audio:x:29:pulse
 dip:x:30:jurandy
 www-data:x:33:
@@ -51,7 +51,7 @@ fuse:x:111:
 messagebus:x:112:
 uuidd:x:113:
 ssl-cert:x:114:
-lpadmin:x:115:jurandy
+lpadmin:x:115:jurandy,rodrigo,credsonisaac
 avahi:x:116:
 scanner:x:117:saned
 whoopsie:x:118:
@@ -66,7 +66,11 @@ rtkit:x:126:
 saned:x:127:
 colord:x:128:
 lightdm:x:129:
-nopasswdlogin:x:130:
+nopasswdlogin:x:130:aluno
 jurandy:x:1000:
-sambashare:x:131:jurandy
+sambashare:x:131:jurandy,rodrigo
 dhcpd:x:132:
+lxc-dnsmasq:x:133:
+aluno:x:1001:
+rodrigo:x:1002:
+credsonisaac:x:1003:

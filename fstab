@@ -7,11 +7,5 @@
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
 # / was on /dev/sda1 during installation
 UUID=561597f5-d4a2-4ce5-8175-5282cb16e6a6 /               ext4    errors=remount-ro 0       1
-# /dos was on /dev/sda3 during installation
-UUID=3E19-458C  /dos            vfat    utf8,umask=007,gid=46 0       1
-# /windows was on /dev/sda5 during installation
-UUID=3E2A-BD8E  /windows        vfat    utf8,umask=007,gid=46 0       1
-# /windows2 was on /dev/sda6 during installation
-UUID=3E3E-B155  /windows2       vfat    utf8,umask=007,gid=46 0       1
 # swap was on /dev/sda2 during installation
 UUID=eea004a6-4728-4545-b6d1-796b12ababa2 none            swap    sw              0       0
