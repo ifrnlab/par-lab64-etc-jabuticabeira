@@ -1,0 +1,5 @@
+# Log every push and pull to the servelog
+
+[hooks]
+changegroup.aaaaa_servelog = python:mercurialserver.servelog.hook
+outgoing.aaaaa_servelog = python:mercurialserver.servelog.hook

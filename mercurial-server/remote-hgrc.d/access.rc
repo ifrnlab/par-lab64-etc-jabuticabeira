@@ -1,0 +1,4 @@
+# Check that a commit meets access control rules before allowing it
+
+[hooks]
+pretxnchangegroup.access = python:mercurialserver.access.hook
