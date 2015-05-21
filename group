@@ -69,3 +69,4 @@ lightdm:x:129:
 nopasswdlogin:x:130:
 jurandy:x:1000:
 sambashare:x:131:jurandy
+dhcpd:x:132:

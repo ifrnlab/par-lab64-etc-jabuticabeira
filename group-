@@ -18,7 +18,7 @@ voice:x:22:
 cdrom:x:24:jurandy
 floppy:x:25:
 tape:x:26:
-sudo:x:27:
+sudo:x:27:jurandy
 audio:x:29:pulse
 dip:x:30:jurandy
 www-data:x:33:
