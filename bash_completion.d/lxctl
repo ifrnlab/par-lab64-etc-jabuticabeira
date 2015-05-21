@@ -1,0 +1,58 @@
+# bash completion for lxctl
+
+#have lxctl &&
+_lxctl()
+{
+    local cur command
+
+    COMPREPLY=()
+    cur=`_get_cword`
+    command=${COMP_WORDS[1]}
+
+    BUILTIN="--man --help --version"
+
+    case $COMP_CWORD in
+        1)
+            COMMANDS=`echo $BUILTIN $LXCTL_PLUGINS`
+            COMPREPLY=( $( compgen -W "$COMMANDS" -- "$cur" ) )
+            ;;
+        2)
+            case $command in
+                '--help'|'--man'|'--version')
+                ;;
+		*)
+                        use_vmname="\${LXCTL_PLUGIN_USE_VMNAME_$command}"
+                        use_vmname=`eval echo "$use_vmname"`
+                        if [ $use_vmname == "yes" ]; then
+                                LIST=$(lxctl list --raw 2>/dev/null)
+                                COMPREPLY=( $( compgen -W "$LIST" -- "$cur" ) )
+                        else
+			        params="\${LXCTL_PLUGIN_$command}"
+			        params=`eval echo "$params"`
+			        if [ -n "$params" ] ; then
+			        	COMPREPLY=( $( compgen -W "$params" -- "$cur" ) )
+			        fi
+                        fi
+		esac
+            ;;
+	*)
+	    case $command in
+		*)
+                    params="\${LXCTL_PLUGIN_$command}"
+                    params=`eval echo "$params"`
+                    if [ -n "$params" ] ; then
+                        COMPREPLY=( $( compgen -W "$params" -- "$cur" ) )
+                    fi
+		    ;;
+	    esac
+    esac
+} &&
+complete -F _lxctl $default lxctl
+
+# Local variables:
+# mode: shell-script
+# sh-basic-offset: 4
+# sh-indent-comment: t
+# indent-tabs-mode: nil
+# End:
+# ex: ts=4 sw=4 et filetype=sh

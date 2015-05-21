@@ -1,0 +1,28 @@
+---
+lvm:
+  VG: vg00
+paths:
+  YAML_CONFIG_PATH: '/etc/lxctl'
+  LXC_CONF_DIR: '/var/lib/lxc'
+  ROOT_MOUNT_PATH: '/var/lib/lxctl/root'
+  TEMPLATE_PATH: '/var/lib/lxctl/templates'
+  LXC_LOG_PATH: '/var/log/lxc.log'
+  LXC_LOG_LEVEL: 'DEBUG'
+check:
+  skip_kernel_config_check: 1
+rsync:  
+  RSYNC_OPTS: -aH --delete --numeric-ids --exclude 'proc/*' --exclude 'sys/*' -e ssh
+root:
+  ROOT_SIZE: 50G
+  ROOT_TYPE: lvm
+fs:
+  FS: ext4
+  FS_OPTS: -b 4096
+  FS_MOUNT_OPTS: defaults,barrier=0
+os:
+  OS_TEMPLATE: ubuntu-10.04-amd64
+set:
+  SEARCHDOMAIN: ru
+  IFNAME: 'ip'
+list:
+  COLUMNS: 'name,disk_free_mb,status,ip,hostname'
