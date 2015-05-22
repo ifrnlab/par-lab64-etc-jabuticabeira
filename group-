@@ -83,3 +83,8 @@ docker:x:138:
 debian-spamd:x:139:
 bacatela:x:1005:
 quaggavty:x:140:
+quagga:x:141:
+asa2015.1:x:1006:
+fulano:x:1007:
+beltrano:x:1008:
+america:x:1009:fulano
