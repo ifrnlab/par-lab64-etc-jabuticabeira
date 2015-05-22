@@ -68,7 +68,7 @@ colord:x:128:
 lightdm:x:129:
 nopasswdlogin:x:130:aluno
 jurandy:x:1000:
-sambashare:x:131:jurandy,rodrigo,credsonisaac,tadeu
+sambashare:x:131:jurandy,rodrigo,credsonisaac,tadeu,bacatela
 dhcpd:x:132:
 lxc-dnsmasq:x:133:
 aluno:x:1001:
@@ -82,3 +82,4 @@ gdm:x:137:
 docker:x:138:
 debian-spamd:x:139:
 bacatela:x:1005:
+quaggavty:x:140:

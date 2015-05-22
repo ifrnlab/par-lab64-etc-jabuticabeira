@@ -82,3 +82,5 @@ gdm:x:137:
 docker:x:138:
 debian-spamd:x:139:
 bacatela:x:1005:
+quaggavty:x:140:
+quagga:x:141:
