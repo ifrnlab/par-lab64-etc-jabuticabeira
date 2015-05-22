@@ -2,7 +2,7 @@ root:x:0:
 daemon:x:1:
 bin:x:2:
 sys:x:3:
-adm:x:4:syslog,jurandy,rodrigo,credsonisaac,tadeu
+adm:x:4:syslog,jurandy,rodrigo,credsonisaac,tadeu,bacatela
 tty:x:5:
 disk:x:6:
 lp:x:7:
@@ -18,7 +18,7 @@ voice:x:22:
 cdrom:x:24:jurandy
 floppy:x:25:
 tape:x:26:
-sudo:x:27:jurandy,rodrigo,credsonisaac,tadeu
+sudo:x:27:jurandy,rodrigo,credsonisaac,tadeu,bacatela
 audio:x:29:pulse
 dip:x:30:jurandy
 www-data:x:33:
@@ -51,7 +51,7 @@ fuse:x:111:
 messagebus:x:112:
 uuidd:x:113:
 ssl-cert:x:114:
-lpadmin:x:115:jurandy,rodrigo,credsonisaac,tadeu
+lpadmin:x:115:jurandy,rodrigo,credsonisaac,tadeu,bacatela
 avahi:x:116:
 scanner:x:117:saned
 whoopsie:x:118:
@@ -68,7 +68,7 @@ colord:x:128:
 lightdm:x:129:
 nopasswdlogin:x:130:aluno
 jurandy:x:1000:
-sambashare:x:131:jurandy,rodrigo,credsonisaac,tadeu
+sambashare:x:131:jurandy,rodrigo,credsonisaac,tadeu,bacatela
 dhcpd:x:132:
 lxc-dnsmasq:x:133:
 aluno:x:1001:
@@ -81,3 +81,4 @@ hg:x:136:
 gdm:x:137:
 docker:x:138:
 debian-spamd:x:139:
+bacatela:x:1005:
