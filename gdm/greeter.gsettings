@@ -31,7 +31,7 @@
 # fallback-logo='/usr/share/icons/gnome/48x48/places/debian-swirl.png'
 
 # - Disable user list
-# disable-user-list=true
+disable-user-list=true
 # - Disable restart buttons
 # disable-restart-buttons=true
 # - Show a login welcome message
