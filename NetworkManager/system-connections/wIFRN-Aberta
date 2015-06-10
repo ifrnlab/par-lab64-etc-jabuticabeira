@@ -1,0 +1,15 @@
+[connection]
+id=wIFRN-Aberta
+uuid=a645d85c-e99a-4634-a27a-68dbc64dedd1
+type=wifi
+
+[wifi]
+ssid=wIFRN-Aberta
+mode=infrastructure
+mac-address=68:A3:C4:14:C9:65
+
+[ipv6]
+method=auto
+
+[ipv4]
+method=auto
