@@ -1,5 +1,5 @@
 127.0.0.1	localhost
-127.0.1.1	pc-rede-01
+127.0.1.1	monica
 192.168.0.1	monica.asa	monica
 
 # The following lines are desirable for IPv6 capable hosts
