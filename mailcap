@@ -74,6 +74,7 @@ application/x-bittorrent; transmission-gtk %s; description="GTK-based BitTorrent
 text/plain; more %s; needsterminal
 text/x-apport; /usr/share/apport/apport-gtk -c %s; test=test -n "$DISPLAY"
 x-scheme-handler/apt; apturl %s; test=test -n "$DISPLAY"
+text/plain; /usr/share/atom/atom %s; test=test -n "$DISPLAY"
 inode/directory; baobab %s; test=test -n "$DISPLAY"
 x-content/blank-cd; nautilus --no-default-window --no-desktop burn:///  %s; test=test -n "$DISPLAY"
 x-content/blank-dvd; nautilus --no-default-window --no-desktop burn:///  %s; test=test -n "$DISPLAY"
