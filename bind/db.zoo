@@ -1,0 +1,11 @@
+$TTL	86400
+@ IN SOA leao.seudom.com.br. root.leao.seudom.com.br. (
+  1
+  604800
+  86400
+  2419200
+  86400
+)
+
+@ IN NS leao.seudom.com.br.
+leao  IN A 10.0.3.40

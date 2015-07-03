@@ -1,0 +1,10 @@
+@ IN SOA maq1.seudom.com.br. root.maq1.seudom.com.br. (
+  1
+  604800
+  86400
+  2419200
+  86400
+)
+
+@ IN NS maq1.seudom.com.br.
+maq1  IN A 10.0.3.40
