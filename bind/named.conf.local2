@@ -1,0 +1,24 @@
+// sudo vim /etc/bind/named.conf.local
+// Pressione <a> para começar a inserir os dados de sua zona
+
+zone "seudom.com.br" {
+  type master;
+  file "/etc/bind/db.seudom";
+};
+
+// Para salvar e sair
+// ESC:x ENTER
+
+// Depois de editar o /etc/bind/named.conf.local, 
+// Você deve editar o /etc/bind/db.seudom
+
+// Temos 2 opções:
+
+// a) Editar manualmente o arquivo a partir do zero
+// b) Copiar o arquivo /etc/bind/db.empty
+
+// Vamos visualizar o /etc/bind/db.empty, via comando view
+// 
+
+
+

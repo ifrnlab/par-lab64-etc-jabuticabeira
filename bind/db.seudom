@@ -1,4 +1,7 @@
-@ IN SOA maq1.seudom.com.br. root.maq1.seudom.com.br. (
+
+$TTL 86400
+
+@ IN SOA maqX.seudom.com.br. root.maqX.seudom.com.br. (
   1
   604800
   86400
@@ -6,5 +9,34 @@
   86400
 )
 
-@ IN NS maq1.seudom.com.br.
-maq1  IN A 10.0.3.40
+@ IN NS maqX.seudom.com.br.
+
+; Associação: Nome -> IP
+maqY  IN A 10.0.3.1
+maqX  IN A 10.0.3.2
+maqZ  IN A 10.0.3.3
+
+; Associação: Apelido -> Nome
+dns IN CNAME maqX
+router IN CNAME maqY
+www IN CNAME maqZ
+
+
+
+
+
+; Para testar
+; sudo service bind9 reload
+
+; ---NA MAQUINA REAL--- 
+; nslookup
+; > server 10.0.3.2
+; > set type=SOA
+; > seudom.com.br
+; > set type=NS
+; > seudom.com.br
+; > set type=A
+; > maqX.seudom.com.br
+; > maqY.seudom.com.br
+; > maqZ.seudom.com.br
+
