@@ -40,7 +40,7 @@ jurandy:x:1000:1000:Jurandy Soares,,,:/home/jurandy:/bin/bash
 dhcpd:x:120:132::/var/run:/bin/false
 lxc-dnsmasq:x:121:133:LXC dnsmasq,,,:/var/lib/lxc:/bin/false
 aluno:x:1001:1001:Aluno,,,:/home/aluno:/bin/bash
-rodrigo:x:1002:1002:Rodrigo Siqueira,,,:/home/rodrigo:/bin/bash
+rodrigo:x:1002:1002:Rodrigo Siqueira Martins,,,:/home/rodrigo:/bin/bash
 credsonisaac:x:1003:1003:Credson Isaac,,,:/home/credsonisaac:/bin/bash
 tadeu:x:1004:1004:Tadeu Ferreira,,,:/home/tadeu:/bin/bash
 sshd:x:122:65534::/var/run/sshd:/usr/sbin/nologin
@@ -75,3 +75,4 @@ statd:x:127:65534::/var/lib/nfs:/bin/false
 luiz:x:1025:1010:Luiz Bento Silva,20141144030309:/home/luiz:/bin/bash
 seunome:x:1029:1011:Meu Nome Completo,,,:/home/seunome:/bin/bash
 bind:x:128:142::/var/cache/bind:/bin/false
+junior:x:1030:1012::/home/junior:/bin/bash

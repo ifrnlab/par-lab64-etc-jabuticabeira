@@ -1,11 +1,18 @@
 $TTL	86400
-@ IN SOA leao.seudom.com.br. root.leao.seudom.com.br. (
-  1
+@ IN SOA leao.zoo.com.br. root.leao.zoo.com.br. (
+  2
   604800
   86400
   2419200
   86400
 )
 
-@ IN NS leao.seudom.com.br.
-leao  IN A 10.0.3.40
+@ IN NS leao.zoo.com.br.
+leao  IN A 192.168.0.1
+hiena IN A 192.168.0.2
+zebra IN A 192.168.0.3
+macaco IN A 192.168.0.4
+arara  IN A 192.168.0.5
+
+www IN CNAME leao
+mail IN CNAME hiena
