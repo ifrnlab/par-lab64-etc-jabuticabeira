@@ -1,0 +1,16 @@
+$TTL	86400
+@ IN SOA leao.zoo.com.br. root.leao.zoo.com.br. (
+  1
+  604800
+  86400
+  2419200
+  86400
+)
+
+@ IN NS leao.zoo.com.br.
+1 IN PTR leao.zoo.com.br.
+2 IN PTR hiena.zoo.com.br.
+3 IN PTR zebra.zoo.com.br.
+4 IN PTR macaco.zoo.com.br.
+5 IN PTR arara.zoo.com.br.
+
