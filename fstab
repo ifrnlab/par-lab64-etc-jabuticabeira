@@ -9,3 +9,5 @@
 UUID=561597f5-d4a2-4ce5-8175-5282cb16e6a6 /               ext4    errors=remount-ro 0       1
 # swap was on /dev/sda2 during installation
 UUID=eea004a6-4728-4545-b6d1-796b12ababa2 none            swap    sw              0       0
+/dev/sda4  /home  ext4 defaults 0 2
+
