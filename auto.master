@@ -10,7 +10,7 @@
 #	"nosuid" and "nodev" options unless the "suid" and "dev"
 #	options are explicitly given.
 #
-#/net	-hosts
+/net	-hosts
 #
 # Include /etc/auto.master.d/*.autofs
 #

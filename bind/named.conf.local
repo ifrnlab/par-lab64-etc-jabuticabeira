@@ -9,10 +9,16 @@
 zone "zoo.com.br" {
   type master;
   file "/etc/bind/db.zoo";
+  notify yes;
+  allow-transfer {10.0.3.2;};
+  also-notify {10.0.3.2;};
 };
 
 zone "0.168.192.in-addr.arpa" {
   type master;
   file "/etc/bind/db.0.168.192";
+  notify yes;
+  allow-transfer {10.0.3.2;};
+  also-notify {10.0.3.2;};
 };
 
