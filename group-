@@ -84,7 +84,7 @@ debian-spamd:x:139:
 bacatela:x:1005:
 quaggavty:x:140:
 quagga:x:141:
-asa2015.1:x:1006:
+asa2015.1:x:1006:junior
 fulano:x:1007:
 beltrano:x:1008:
 america:x:1009:fulano,beltrano
@@ -92,3 +92,4 @@ luiz:x:1010:
 seunome:x:1011:
 bind:x:142:
 junior:x:1012:
+guest-FUzCVM:x:143:

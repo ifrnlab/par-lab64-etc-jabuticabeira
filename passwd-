@@ -75,4 +75,5 @@ statd:x:127:65534::/var/lib/nfs:/bin/false
 luiz:x:1025:1010:Luiz Bento Silva,20141144030309:/home/luiz:/bin/bash
 seunome:x:1029:1011:Meu Nome Completo,,,:/home/seunome:/bin/bash
 bind:x:128:142::/var/cache/bind:/bin/false
-junior:x:1030:1012::/home/junior:/bin/bash
+junior:x:1030:1012:Jurandy Junior,,,:/home/junior:/bin/bash
+guest-FUzCVM:x:129:143:Convidado,,,:/tmp/guest-FUzCVM:/bin/bash
