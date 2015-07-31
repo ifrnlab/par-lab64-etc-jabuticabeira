@@ -11,4 +11,4 @@
 
 /iso 192.168.0.0/24(ro,no_subtree_check)
 /repo 192.168.0.0/24(ro,no_subtree_check)
-
+/jbin 192.168.0.0/24(ro,no_subtree_check)
