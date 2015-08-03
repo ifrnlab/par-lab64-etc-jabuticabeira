@@ -61,6 +61,7 @@ application/pdf; evince %s; test=test -n "$DISPLAY"; nametemplate=%s.pdf
 application/x-troff-man; /usr/bin/nroff -mandoc -Tutf8; copiousoutput; print=/usr/bin/nroff -mandoc -Tutf8 | print text/plain:-
 text/troff; /usr/bin/nroff -mandoc -Tutf8; copiousoutput; print=/usr/bin/nroff -mandoc -Tutf8 | print text/plain:-
 application/x-info; /usr/bin/info -f '%s'; needsterminal; description=GNU Info document
+message/rfc822; mutt -Rf '%s'; edit=mutt -f '%s'; needsterminal
 application/vnd.mysql-workbench-model; mysql-workbench '%s'; description="MySQL Workbench Model"; test=test -n "$DISPLAY"; nametemplate=%s.mwb
 application/x-ogg; rhythmbox '%s'; description="Ogg Vorbis audio"; test=test -n "$DISPLAY"; nametemplate=%s.ogg
 application/ogg; rhythmbox '%s'; description="Ogg Media"; test=test -n "$DISPLAY"

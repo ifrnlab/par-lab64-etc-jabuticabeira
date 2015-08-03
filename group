@@ -93,3 +93,7 @@ seunome:x:1011:
 bind:x:142:
 junior:x:1012:
 mysql:x:143:
+postfix:x:144:
+postdrop:x:145:
+dovecot:x:146:
+dovenull:x:147:

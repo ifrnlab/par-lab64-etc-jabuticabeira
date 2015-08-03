@@ -1,6 +1,6 @@
 127.0.0.1	localhost
 127.0.1.1	monica
-192.168.0.1	monica.asa	monica
+192.168.0.1	monica	monica.labredes.teste
 192.168.0.1	www.jurandy.asa
 
 # The following lines are desirable for IPv6 capable hosts
