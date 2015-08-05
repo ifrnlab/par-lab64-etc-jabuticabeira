@@ -1,7 +1,5 @@
 127.0.0.1	localhost
 127.0.1.1	monica
-192.168.0.1	monica	monica.labredes.teste
-192.168.0.1	www.jurandy.asa
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
@@ -9,3 +7,25 @@ fe00::0 ip6-localnet
 ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
+
+
+192.168.0.1	jabuticabeira
+192.168.0.2	abacateiro
+192.168.0.3	aceroleira
+192.168.0.4	amendoeira
+192.168.0.5	buritizeiro
+192.168.0.6	cacaueiro
+192.168.0.7	cajueiro
+192.168.0.8	caramboleira
+192.168.0.9	cerejeira
+192.168.0.10	damasqueiro
+192.168.0.11	figueira
+192.168.0.12	gameleira
+192.168.0.13	garirobeira
+192.168.0.14	goiabeira
+192.168.0.15	jambeiro
+192.168.0.16	jaqueira
+192.168.0.17	juazeiro
+192.168.0.18	marmeleiro
+192.168.0.19	moringueira
+192.168.0.20	quixabeira
