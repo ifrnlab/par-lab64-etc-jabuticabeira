@@ -97,3 +97,5 @@ postfix:x:144:
 postdrop:x:145:
 dovecot:x:146:
 dovenull:x:147:
+nagios:x:1013:
+nagcmd:x:1014:nagios,www-data

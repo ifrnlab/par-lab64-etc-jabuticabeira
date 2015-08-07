@@ -79,4 +79,5 @@ junior:x:1030:1012:Jurandy Junior,,,:/home/junior:/bin/bash
 mysql:x:129:143:MySQL Server,,,:/nonexistent:/bin/false
 postfix:x:130:144::/var/spool/postfix:/bin/false
 dovecot:x:131:146:Dovecot mail server,,,:/usr/lib/dovecot:/bin/false
-dovenull:x:132:147::/nonexistent:/bin/false
+dovenull:x:132:147:Dovecot login user,,,:/nonexistent:/bin/false
+nagios:x:1031:1013::/home/nagios:/bin/bash
