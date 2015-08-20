@@ -29,7 +29,7 @@
 PATH=/sbin:/bin:/usr/sbin:/usr/bin:$PATH
 DEVICE=/dev/vboxdrv
 LOG="/var/log/vbox-install.log"
-VERSION=4.3.28
+VERSION=4.3.30
 MODPROBE=/sbin/modprobe
 
 if $MODPROBE -c | grep -q '^allow_unsupported_modules  *0'; then
