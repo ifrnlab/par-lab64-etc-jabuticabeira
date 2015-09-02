@@ -80,4 +80,5 @@ mysql:x:129:143:MySQL Server,,,:/nonexistent:/bin/false
 postfix:x:130:144::/var/spool/postfix:/bin/false
 dovecot:x:131:146:Dovecot mail server,,,:/usr/lib/dovecot:/bin/false
 dovenull:x:132:147:Dovecot login user,,,:/nonexistent:/bin/false
-nagios:x:1031:1013::/home/nagios:/bin/bash
+nagios:x:1031:1013:Usuário para o Nagios,,,:/home/nagios:/bin/bash
+guest-los6gT:x:133:148:Convidado,,,:/tmp/guest-los6gT:/bin/bash

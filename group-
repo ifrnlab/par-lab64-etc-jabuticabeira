@@ -98,4 +98,5 @@ postdrop:x:145:
 dovecot:x:146:
 dovenull:x:147:
 nagios:x:1013:
-nagcmd:x:1014:nagios
+nagcmd:x:1014:nagios,www-data
+guest-los6gT:x:148:
