@@ -81,4 +81,4 @@ postfix:x:130:144::/var/spool/postfix:/bin/false
 dovecot:x:131:146:Dovecot mail server,,,:/usr/lib/dovecot:/bin/false
 dovenull:x:132:147:Dovecot login user,,,:/nonexistent:/bin/false
 nagios:x:1031:1013:Usuário para o Nagios,,,:/home/nagios:/bin/bash
-guest-los6gT:x:133:148:Convidado,,,:/tmp/guest-los6gT:/bin/bash
+lxd:x:133:65534::/var/lib/lxd/:/bin/false
