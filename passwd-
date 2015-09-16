@@ -60,7 +60,6 @@ josieidy:$6$8oVpJM0v$MWDIaUbudSiQ00GzIW9.sxjNARuIR/LfLFokMfU880fKcpR9YDI1dkMl5W.
 leandro:$6$OMCBJ/D7$GduZOax2aeSflOewMg6fOXXyR8IXthNlDRvhCYADU9l9RtpMUXbisaicAaiHpsPemMVKDukLB8K.icE57ZlSB0:1020:1006:Leandro Airton Bezerra,20141144030384:/home/asa2015.1/leandro:/bin/bash
 marinara:$6$hXIo97U7$T9yVPHQgdc1g8pBIVxav.bU0llml8gjVMpg.x7/p0dcG4mzJv6IzKoIDDwHfVIAGmJ1NqzF8x9K7W7LBagoaw0:1021:1006:Marinara Izabelly Lima dos Santos,20132144030032:/home/asa2015.1/marinara:/bin/bash
 valdeir:$6$v8NNw793$NMMdRMDtNi/.bZLgFnfaqc3pqbNqcmfe/YqSrQs/XLF5fPl7S321hw0MEx2PRhwvrJHV/nhvsEtZ8nl05eKY10:1026:1006:Valdeir Judeson Alves da Silva,20132144030334:/home/asa2015.1/valdeir:/bin/bash
-roberto:$6$JiuOchKL$B.axyrVTm09THRO9dyGPvoF.8cMIYrYPkmM5zAysClXTZIv3LMpXg6DDH49Fy0DewzS/gqBsz6Q1OGqOk7AFQ0:1027:1006:ROBERTO WAGNER SILVA DIAS,20132144030261:/home/asa2015.1/roberto:/bin/bash
 statd:*:127:65534::/var/lib/nfs:/bin/false
 luiz:$6$gsBDex0U$xHNtqm45Phmo4QvflTrw6PxCR1e0LlNwJAjtYFWo.UeTewAF2uNb3p8Fg03DF1Z02EFJXxaqkXfn0PypYc/FM.:1025:1010:Luiz Bento Silva,20141144030309:/home/luiz:/bin/bash
 seunome:$6$vKpnwfbh$gSlcuhPkNASjTAAjUOgBOSW77nQCVWRXP7Mti3mU34mFAXTDcUPVrCaw3QBfejKAKL5qu5p0A.w39/tCF2rhF0:1029:1011:Meu Nome Completo,,,:/home/seunome:/bin/bash
@@ -75,3 +74,5 @@ lxd:*:133:65534::/var/lib/lxd/:/bin/false
 fulano:$6$0/AI8d.L$vJCj06IsGuzIK6LNT8Mz8rDOpuRTT1iIvjXy/FU1Yqc84iSaWhfqGNzkkj1pki2.iqo.DzX/rw3.gbjHXQjYO1:1032:1032:Fulano de Tal:/usuario/fulano:
 guest-PuzB9Z:*:134:149:Convidado,,,:/tmp/guest-PuzB9Z:/bin/bash
 guest-8bQJMV:*:135:150:Convidado,,,:/tmp/guest-8bQJMV:/bin/bash
+beltrano:$6$j2bshIGO$iyxtEMEzUCE3NKA/0s8d9.yIIhgyaNkXiNWR8OPCvXmxgI8e4XTf83mvOhxyImfFw4d/JH8AVYegqJ954g93R.:1006:1007:Beltrano da Silva,,,:/home/beltrano:/bin/bash
+sicrano:$6$E.ioPzUU$xzRdvrQIYSlzAFmtMwTd3jR4qTLDlpIDGe1gNjnSU/o/lsQLTXqrHntefK.WH99jAiu3KTo5cazfio48OGM7r/:1007:1008::/home/sicrano:/bin/bash

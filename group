@@ -84,7 +84,7 @@ debian-spamd:!:139:
 bacatela:!:1005:
 quaggavty:!:140:
 quagga:!:141:
-asa2015.1:!:1006:junior
+asa2015.1:!:1006:junior,andreia,artur,beatriz,cleia,gustavo,habys,jefferson,josieidy,leandro,marinara,valdeir
 america:!:1009:
 luiz:!:1010:
 seunome:!:1011:
@@ -101,3 +101,5 @@ lxd:!:148:jurandy,rodrigo,credsonisaac,tadeu,bacatela
 fulano:!:1032:
 guest-PuzB9Z:x:149:
 guest-8bQJMV:x:150:
+beltrano:x:1007:
+sicrano:x:1008:
