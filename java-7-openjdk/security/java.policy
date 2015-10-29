@@ -41,6 +41,12 @@ grant codeBase "file:/usr/lib/jvm/java-7-openjdk-ppc64/jre/lib/ext/*" {
 grant codeBase "file:/usr/lib/jvm/java-7-openjdk-ppc64el/jre/lib/ext/*" {
         permission java.security.AllPermission;
 };
+grant codeBase "file:/usr/lib/jvm/java-7-openjdk-s390/jre/lib/ext/*" {
+        permission java.security.AllPermission;
+};
+grant codeBase "file:/usr/lib/jvm/java-7-openjdk-s390x/jre/lib/ext/*" {
+        permission java.security.AllPermission;
+};
 grant codeBase "file:/usr/lib/jvm/java-7-openjdk-sparc/jre/lib/ext/*" {
         permission java.security.AllPermission;
 };
