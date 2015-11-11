@@ -43,7 +43,6 @@ aluno:x:1001:1001:Aluno,,,:/home/aluno:/bin/bash
 rodrigo:x:1002:1002:Rodrigo Siqueira Martins,,,:/home/rodrigo:/bin/bash
 credsonisaac:x:1003:1003:Credson Isaac,,,:/home/credsonisaac:/bin/bash
 tadeu:x:1004:1004:Tadeu Ferreira,,,:/home/tadeu:/bin/bash
-sshd:x:122:65534::/var/run/sshd:/usr/sbin/nologin
 hg:x:123:136:Mercurial repositories,,,:/var/lib/mercurial-server:/bin/sh
 gdm:x:124:137:Gnome Display Manager:/var/lib/gdm:/bin/false
 debian-spamd:x:125:139::/var/lib/spamassassin:/bin/sh
@@ -93,3 +92,4 @@ valeria:x:1044:1044:Valéria Katerine Macedo De Lima,20142144030331:/home/valeri
 mauricio:x:1008:1015:Maurício dos Santos Neves,20152144030266:/home/mauricio:/bin/bash
 libvirt-qemu:x:138:154:Libvirt Qemu,,,:/var/lib/libvirt:/bin/false
 libvirt-dnsmasq:x:139:153:Libvirt Dnsmasq,,,:/var/lib/libvirt/dnsmasq:/bin/false
+sshd:x:122:65534::/var/run/sshd:/usr/sbin/nologin
