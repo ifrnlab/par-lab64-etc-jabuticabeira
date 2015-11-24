@@ -6,6 +6,11 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+zone "seudom.com.br" {
+  type master;
+  file "/etc/bind/db.seudom";
+};
+
 zone "zoo.com.br" {
   type master;
   file "/etc/bind/db.zoo";
