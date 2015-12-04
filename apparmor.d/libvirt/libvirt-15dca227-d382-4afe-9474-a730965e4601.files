@@ -6,8 +6,5 @@
   "/var/run/libvirt/**/*.tunnelmigrate.dest.ubuntuutopic" rw,
   "/run/libvirt/**/*.tunnelmigrate.dest.ubuntuutopic" rw,
   "/var/lib/libvirt/images/ubuntu1510.qcow2" rw,
-  "/home/jurandy/Downloads/ubuntu-15.10-desktop-amd64.iso" r,
-  # don't audit writes to readonly files
-  deny "/home/jurandy/Downloads/ubuntu-15.10-desktop-amd64.iso" w,
   /dev/vhost-net rw,
   "/dev/net/tun" rw,
