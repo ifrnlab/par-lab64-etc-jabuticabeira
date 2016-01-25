@@ -73,6 +73,10 @@ audio/x-mpegurl; rhythmbox '%s'; description="Playlist"; test=test -n "$DISPLAY"
 application/x-flac; rhythmbox '%s'; description="FLAC audio"; test=test -n "$DISPLAY"; nametemplate=%s.flac
 application/x-bittorrent; transmission-gtk %s; description="GTK-based BitTorrent client"; test=test -n "$DISPLAY"
 text/plain; more %s; needsterminal
+x-scheme-handler/mailto; kmailservice %s; test=test -n "$DISPLAY"
+x-scheme-handler/telnet; ktelnetservice %s; test=test -n "$DISPLAY"
+x-scheme-handler/rlogin; ktelnetservice %s; test=test -n "$DISPLAY"
+x-scheme-handler/ssh; ktelnetservice %s; test=test -n "$DISPLAY"
 text/x-apport; /usr/share/apport/apport-gtk -c %s; test=test -n "$DISPLAY"
 x-scheme-handler/apt; apturl %s; test=test -n "$DISPLAY"
 text/plain; /usr/share/atom/atom %s; test=test -n "$DISPLAY"
