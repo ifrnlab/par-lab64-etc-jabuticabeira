@@ -1,5 +1,5 @@
 127.0.0.1	localhost
-127.0.1.1	jabuticabeira
+127.0.1.1	jabuticabeira 
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
@@ -9,7 +9,7 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
 
-192.168.0.1	jabuticabeira
+192.168.0.1	jabuticabeira	www.jurandy.asa
 192.168.0.2	abacateiro
 192.168.0.3	aceroleira
 192.168.0.4	amendoeira
